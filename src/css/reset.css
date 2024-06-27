@@ -24,7 +24,10 @@ a {
   text-decoration: none;
 }
 
-button {
+button,
+input {
+  font-family: inherit;
+  color: currentColor;
   cursor: pointer;
 }
 
