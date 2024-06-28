@@ -23,29 +23,30 @@
       </div>
       <picture>
         <source
-          srcset="
-            ../img/aboutus-img-desk-1x.jpg,
-            ../img/aboutus-img-desk-2x.jpg 2x
-          "
-          media="(min-width:1280px)" />
+          media="(min-width:1280px )"
+          srcset="/img/aboutus-img-desk-1x.jpg, /img/aboutus-img-desk-2x.jpg 2x"
+        />
         <source
+          media="(min-width:768px )"
           srcset="
-            ../img/aboutus-img-tab-1x.jpg 1x,
-            ../img/aboutus-img-tab-2x.jpg 2x
+            /img/aboutus-img-tab-1x.jpg 1x,
+            /img/aboutus-img-tab-2x.jpg 2x
           "
-          media="(min-width:768px)" />
+        />
         <source
+          media="(min-width:375px )"
           srcset="
-            ../img/aboutus-img-mob-1x.jpg 1x,
-            ../img/aboutus-img-mob-2x.jpg 2x
+            /img/aboutus-img-mob-1x.jpg 1x,
+            /img/aboutus-img-mob-2x.jpg 2x
           "
-          media="(min-width:375px)" />
+        />
         <img
-          src="../img/aboutus-img-tab-1x.jpg"
-          alt="about-us-img"
+          src="/img/aboutus-img-tab-1x.jpg"
+          alt="about-us-img-tab"
           width="704"
           height="512"
-      /></picture>
+        />
+      </picture>
     </div>
   </div>
 </section>
