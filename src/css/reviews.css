@@ -14,13 +14,13 @@
     /* margin-left: 0;
     margin-right: 0; */
     padding-left: 0;
-
+    
 }
 
-/* .reviews-section h2 {
+.reviews-section h2 {
     font-size: 2em;
     margin-bottom: 20px;
-} */
+}
 
 .reviews-list {
     display: flex;
