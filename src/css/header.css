@@ -2,16 +2,6 @@ a {
     text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin: 0;
-}
-
 ul,
 ol {
     list-style: none;
@@ -24,29 +14,25 @@ img {
     max-width: 100%;
     height: auto;
 }
-
 .container {
-    padding: 60px 20px 0 20px;
+    margin: 0;
 }
-
 @media screen and (min-width: 320px) and (max-width: 374px) {
     .container {
         min-width: 320px;
     }
 }
-
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .container {
         max-width: 768px;
     }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1280px) {
     .container {
         max-width: 1280px;
     }
 }
-
 /*header*/
 
 .header-container {
@@ -56,7 +42,6 @@ img {
     justify-content: space-between;
     flex-direction: row;
     padding: 20px;
-
 }
 
 .header-nav {
@@ -86,8 +71,7 @@ img {
     border: none;
     line-height: 0;
 }
-
-.menu {
+.menu-header {
     position: fixed;
     top: 0;
     right: 20px;
@@ -96,10 +80,8 @@ img {
     width: 200px;
     height: 100%;
     background: #0c0c0c;
-    background-image: linear-gradient(to bottom,
-            rgba(12, 12, 12, 0.92),
-            rgba(12, 12, 12, 0.92)),
-        url(../images/header_mob1x.jpg);
+    background-image: url(../img/header_mob1x.jpg),
+    url(../img/header_mob2x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -123,7 +105,6 @@ img {
     flex-direction: column;
     gap: 24px;
     margin-bottom: 260px;
-
 }
 
 .link-header {
@@ -141,7 +122,7 @@ img {
 }
 
 .link-home-header::after {
-    content: url(../images/icons.svg#icon-ellipce);
+    content: url(../img/icons.svg#icon-ellipse);
     width: 8px;
     height: 8px;
     border-radius: 100%;
@@ -193,13 +174,11 @@ img {
         font-size: 20px;
     }
 
-    .menu {
+    .menu-header {
         width: 330px;
         height: 100%;
-        background-image: linear-gradient(to bottom,
-                rgba(12, 12, 12, 0.92),
-                rgba(12, 12, 12, 0.92)),
-            url(../images/header_tab2x.jpg);
+        background-image: url(../img/header_tab1x.jpg),
+        url(../img/header_tab2x.jpg);
     }
 
     .icon-btn {
@@ -225,10 +204,11 @@ img {
     @media screen and (min-width: 1280px) {
         .header-container {
             padding: 26px 64.5px;
+            gap: 203px;
         }
 
         .open-menu-btn,
-        .menu {
+        .menu-header {
             display: none;
         }
 
@@ -242,7 +222,9 @@ img {
             align-items: flex-start;
             justify-content: flex-start;
             flex-direction: row;
+            flex-wrap: nowrap;
             gap: 40px;
+            min-width: 505px;
         }
 
         .link-header {
