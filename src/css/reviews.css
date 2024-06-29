@@ -1,6 +1,6 @@
 .reviews {
     /* text-align: center; */
-    padding: 100px 65px;
+    padding: 100px;
     /* background-color: #fff; */
 }
 
@@ -19,12 +19,12 @@
 
 .reviews-section h2 {
     font-size: 2em;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .reviews-list {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     list-style-type: none;
     padding: 0;
@@ -36,8 +36,9 @@
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 32px 34px;
-    margin: 10px;
+    margin: 0px;
     text-align: center;
+   
 }
 
 .review-photo {
@@ -94,7 +95,7 @@
         align-items: center;
     }
     .reviews{
-        padding: 60px 60px;
+        padding: 60px;
     }
     .review {
         max-width: 70%;
@@ -129,7 +130,7 @@
 
     .reviews-title {
 
-        text-align: center;
+        text-align: left;
     }
 }
 
