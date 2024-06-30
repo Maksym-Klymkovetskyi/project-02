@@ -1,6 +1,7 @@
 body {
     font-family: 'Gilroy', sans-serif;
     background-color: #ffffff;
+    scroll-behavior: smooth;
 }
 
 h1,
