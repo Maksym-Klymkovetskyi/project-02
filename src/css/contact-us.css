@@ -1,5 +1,4 @@
 .section-contact-us {
-  display: block;
   padding: 0px 20px;
   height: 100%;
 }
@@ -19,6 +18,9 @@
   width: 335px;
   height: 512px;
   background-color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .p-contact-us {
@@ -26,7 +28,6 @@
   font-size: 14px;
   line-height: 129%;
   letter-spacing: -0.02em;
-  color: rgba(12, 12, 12, 0.7);
   padding-bottom: 28px;
 }
 
@@ -105,10 +106,10 @@ input::placeholder {
 }
 
 .button-send-contact-us {
-  display: flex;
+  display: block;
   border-radius: 16px;
   padding: 12px 50px;
-  width: 134px;
+  min-width: 134px;
   height: 42px;
   background-color: #3350e9;
   color: #fbfbfb;
@@ -117,6 +118,11 @@ input::placeholder {
   font-size: 14px;
   line-height: 129%;
   text-align: center;
+}
+
+.button-send-contact-us:focus,
+.button-send-contact-us:hover {
+  background-color: #1f3cd4;
 }
 
 input:placeholder-shown {
@@ -138,7 +144,8 @@ input:placeholder-shown {
     padding: 50px 122px;
     width: 704px;
     height: 556px;
-    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
   }
 
   .section-contact-us {
@@ -159,25 +166,25 @@ input:placeholder-shown {
   }
 
   .input-name-contact-us {
-    padding: 16px 0 16px 18px;
+    padding-left: 16px;
     width: 460px;
     height: 52px;
   }
 
   .input-email-contact-us {
-    padding: 16px 0 16px 16px;
+    padding-left: 16px;
     width: 460px;
     height: 52px;
   }
 
   .input-tel-contact-us {
-    padding: 16px 0 16px 16px;
+    padding-left: 16px;
     width: 460px;
     height: 52px;
   }
 
   .textarea-comment-contact-us {
-    padding: 16px 0 54px 16px;
+    padding-left: 16px;
     width: 460px;
     height: 90px;
     margin-bottom: 32px;
@@ -190,28 +197,16 @@ input:placeholder-shown {
   }
 
   .beforefooter-img {
-    background-image: url(/img/beforefooter-img-tab-1x.jpg);
     margin-top: 40px;
     border-radius: 50px;
     width: 704px;
-    height: 556px;
-  }
-
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .beforefooter-img {
-      background-image: url(/img/beforefooter-img-tab-2x.jpg);
-    }
   }
 }
 
 @media screen and (min-width: 1280px) {
   .section-contact-us {
     display: flex;
-    flex-wrap: wrap;
     gap: 40px;
-    padding: 0 65px;
   }
 
   .section-contact-us {
@@ -219,24 +214,17 @@ input:placeholder-shown {
   }
 
   .beforefooter-img {
-    background-image: url(/img/beforefooter-img-desk-1x.jpg);
     border-radius: 50px;
     width: 530px;
     height: 556px;
     margin-top: 84px;
   }
 
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .beforefooter-img {
-      background-image: url(/img/beforefooter-img-desk-2x.jpg);
-    }
-  }
-
   .container-form-contact-us {
     padding: 50px 60px;
     width: 580px;
     height: 556px;
+    display: flex;
+    flex-direction: row;
   }
 }
