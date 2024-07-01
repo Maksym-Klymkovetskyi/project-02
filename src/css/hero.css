@@ -1,14 +1,7 @@
-section {
-    background: #fbfbfb;
+.section {
     padding: 60px 0;
     position: relative;
 
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 .hero-container {
