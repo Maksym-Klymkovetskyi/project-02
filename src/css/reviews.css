@@ -74,7 +74,9 @@
         flex-direction: column;
         align-items: center;
     }
-
+    .reviews {
+        padding: 60px;
+         }
     .review {
         max-width: 100%;
     }
@@ -118,7 +120,9 @@
         align-items: center;
 
     }
-
+    .reviews {
+       padding: 80px;
+         }
     .review {
         max-width: 45%;
 
@@ -137,6 +141,9 @@
 /* ---------------------- */
 
 @media (min-width: 1280px) {
+    .reviews {
+            padding: 100px;
+        }
     .review {
         max-width: 300px;
     }
