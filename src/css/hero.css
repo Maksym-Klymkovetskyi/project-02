@@ -1,25 +1,29 @@
-section {
-    background: #fbfbfb;
-    padding: 60px 0 0 0;
-    position: relative;
 
-}
+.hero {
+    padding: 60px 0;
+    /* position: relative; */
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+
 }
 
 .hero-container {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
 
+.hero-big-box {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
 
-
+.hero-title-text-box {
+    
 }
 
 
 .title-hero {
-
     font-weight: 600;
     font-size: 35.6px;
     line-height: 95%;
@@ -40,7 +44,13 @@ ul {
     letter-spacing: -0.02em;
     max-width: 335px;
     
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
+}
+
+.hero-second-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 
@@ -51,13 +61,13 @@ ul {
 
 .item-img-hero {
     border-radius: 100%;
-    margin-bottom: 28px;
+    /* margin-bottom: 28px; */
 
 
 }
 
 .link-hero_and_footer {
-    position: absolute;
+    /* position: absolute; */
     font-weight: 500;
     font-size: 14px;
     line-height: 129%;
@@ -65,9 +75,9 @@ ul {
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #0c0c0c;
-    top: 320px;
-    right: 20px;
-
+    /* top: 320px;
+    right: 20px; */
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -88,21 +98,29 @@ ul {
     color: #3350e9;
 }
 
-.backdrop-hero-img {}
+.backdrop-hero-img {
+    /* position: relative; */
+}
 
-.watch-img {
+/* .watch-img {
 
     border-radius: 10%;
 
+} */
+ 
+
+.hero-second-box-pictures {
+    position: relative;
 }
 
 .victoria {
     border-radius: 100%;
     stroke-width: 2px;
     stroke: #fbfbfb;
-    position: absolute;
-    left: 20px;
-    top: 294px;
+    /* position: absolute;
+    right: 64px; */
+    /* top: 294px; */
+    z-index: 15;
 }
 
 .john {
@@ -110,8 +128,9 @@ ul {
     stroke-width: 2px;
     stroke: #fbfbfb;
     position: absolute;
-    left: 52px;
-    top: 294px;
+   left: 32px;
+    /* top: 294px; */ 
+    /* z-index: 26; */
 }
 
 .anastasia {
@@ -119,8 +138,14 @@ ul {
     stroke-width: 2px;
     stroke: #fbfbfb;
     position: absolute;
-    left: 84px;
-    top: 294px;
+    left: 64px;
+    /* top: 294px; */
+    z-index: 77;
+}
+
+.backdrop-hero-img {
+    border-radius: 30px;
+    background-color: rgba(12, 12, 12, 0.2);
 }
 
 
@@ -129,12 +154,21 @@ ul {
 
 @media screen and (min-width:768px) {
 
-    .section{
+    .hero {
         padding: 80px 0;
     }
 
+    .hero-container {
+        
+    }
+
+    .hero-big-box {
+        flex-direction: row;
+        gap: 11px;
+    }
+
     .title-hero {
-        max-width: 557px;
+        min-width: 557px;
         font-size: 70px;
         line-height: 86%;
     }
@@ -143,34 +177,47 @@ ul {
         font-size: 16px;
         line-height: 125%;
         margin-bottom: 40px;
-        max-width: 480px;
+        min-width: 480px;
+    }
+
+    .hero-second-box {
+        flex-direction: column;
+        align-items: flex-end;
     }
 
     .link-hero_and_footer {
-        top: 320px;
-        right: 32px;
+        /* top: 320px;
+        right: 32px; */
         font-size: 20px;
         line-height: 100%;
 
     }
 
     .victoria {
-        top: 80px;
-        left: 600px;
+        position: static;
+        /* top: 80px;
+        left: 600px; */
     }
 
     .john {
-        top: 80px;
-        left: 641px;
+        position: static;
+        right: 32px;
+        /* top: 80px;
+        left: 641px; */
     }
 
     .anastasia {
-        top: 80px;
-        left: 680px;
+        position: static;
+        /* top: 80px;
+        left: 680px; */
     }
 
-    .watch-img {
+    /* .watch-img {
         border-radius: 5%;
+    } */
+
+    .backdrop-hero-img {
+        border-radius: 50px;
     }
 }
 
@@ -179,6 +226,11 @@ ul {
 @media screen and (min-width:1280px) {
 
 
+    .hero-big-box {
+        gap: 0px;
+        justify-content: space-between;
+        }
+
     .title-hero {
         max-width: 597px;
         font-size: 72px;
@@ -186,21 +238,21 @@ ul {
     }
 
     .link-hero_and_footer {
-        top: 329px;
-        right: 65px;
+        /* top: 329px;
+        right: 65px; */
         
     }
 
     .victoria {
-        left: 1069px;
+        /* left: 1069px; */
         
     }
 
     .john {
-        left: 1113px;
+        /* left: 1113px; */
     }
 
     .anastasia {
-        left: 1155px;
+        /* left: 1155px; */
     }
 }
