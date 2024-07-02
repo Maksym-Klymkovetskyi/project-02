@@ -7,10 +7,7 @@
     padding-top: 60px;
     padding-bottom: 60px;
     }
-
-.catalog-container {
-    padding: 0px 20px;
-    }
+    
 
 .catalog-title {
     font-size: 32px;
@@ -40,14 +37,13 @@
 .catalog-box-content {
     padding: 24px 28px;
     }
-    
 
 .clock-text {
     margin-top: 10px;
     display: flex;
-    align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
+    gap: 8px;
     width: 279px;
     height: 44px;
     }
@@ -58,7 +54,6 @@
     line-height: 1.25;
     letter-spacing: -0.02em;
     color: #0c0c0c;
-    margin-bottom: 8px;
     }
 
 .clock-price {
@@ -74,18 +69,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
+    margin: 40px auto 0;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.29;
-    text-align: center;
+    padding: 15px 44px;
     color: #fbfbfb;
     border-radius: 16px;
-    width: 160px;
-    height: 48px;
     background-color: #3350e9;
     border: none;
-    margin-top: 40px;
     }
 
 .catalog-btn-scroll:hover,
@@ -103,11 +95,10 @@
     }
 
 .catalog-container {
-    padding: 0 32px;
     width: 768px;
     }
 
-.catalog-title{
+.catalog-title {
     font-size: 48px;
     line-height: 92%;
     margin-bottom: 40px;
@@ -142,12 +133,7 @@
     }
 
 .catalog-container {
-    /* padding: 0 65px; */
     width: 1280px;
-    }
-
-.catalog-list {
-    column-gap: 23px;
     }
 
     .catalog-link {
