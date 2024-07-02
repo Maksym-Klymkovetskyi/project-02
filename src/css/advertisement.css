@@ -1,4 +1,5 @@
 .section-your-story {
+    padding-top: 60px;
     padding-bottom: 60px;
 }
 
@@ -73,8 +74,7 @@ font-weight: 500;
 
 @media screen and (min-width: 768px) {
 .section-your-story{
-        /* padding-top: 0; */
-
+        padding-top: 80px;
         padding-bottom: 80px;
     }
 .your-story-backdrop {
@@ -115,6 +115,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
 
 @media screen and (min-width: 1280px) {
     .section-your-story {
+        padding-top: 100px;
         padding-bottom: 100px;
     }
 

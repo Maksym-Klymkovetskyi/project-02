@@ -109,9 +109,9 @@
 } */
  
 
-.hero-second-box-pictures {
+/* .hero-second-box-pictures {
     position: relative;
-}
+} */
 
 .victoria {
     border-radius: 100%;
@@ -127,7 +127,7 @@
     border-radius: 100%;
     stroke-width: 2px;
     stroke: #fbfbfb;
-    position: absolute;
+    /* position: absolute; */
    left: 32px;
     /* top: 294px; */ 
     /* z-index: 26; */
@@ -137,7 +137,7 @@
     border-radius: 100%;
     stroke-width: 2px;
     stroke: #fbfbfb;
-    position: absolute;
+    /* position: absolute; */
     left: 64px;
     /* top: 294px; */
     z-index: 77;
@@ -194,20 +194,20 @@
     }
 
     .victoria {
-        position: static;
+        /* position: static; */
         /* top: 80px;
         left: 600px; */
     }
 
     .john {
-        position: static;
-        right: 32px;
+        /* position: static; */
+        /* right: 32px; */
         /* top: 80px;
         left: 641px; */
     }
 
     .anastasia {
-        position: static;
+        /* position: static; */
         /* top: 80px;
         left: 680px; */
     }
@@ -224,6 +224,9 @@
 /* ------------------------------------------------ */
 
 @media screen and (min-width:1280px) {
+    .hero {
+        padding: 100px 0;
+    }
 
 
     .hero-big-box {
