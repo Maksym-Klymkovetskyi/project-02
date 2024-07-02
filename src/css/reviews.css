@@ -68,8 +68,14 @@
     color: rgba(12, 12, 12, 0.4);
 }
 
+
 /* ---------------------*/
-@media (min-width: 320px) and (max-width: 374px) {
+
+@media (max-width: 767px) {
+    
+    .reviews-section.container {
+        margin-bottom: 0;
+    }
     .reviews-list {
         flex-direction: column;
         align-items: center;
@@ -79,72 +85,79 @@
          }
     .review {
         max-width: 100%;
+        margin-bottom: 24px;
     }
-
+    .review-photo {
+        margin: 0 auto;
+    }
+    .review-title-name{
+        margin-bottom: 8px;
+    }
     .review-2 {
-        display: block;
+        display: none;
     }
 
     .review-3 {
-        display: block;
+        display: none;
     }
 }
 
 
-@media (min-width: 375px) and (max-width: 767px) {
+@media (min-width: 768px) {
+    .reviews-section.container {
+     margin-bottom: 0;
+        }
     .reviews-list {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
     .reviews{
-        padding: 60px;
+        padding: 80px;
+
     }
     .review {
-        max-width: 70%;
-    }
-
-    .review-2 {
-        display: none;
+        max-width: 45%;
+        margin-bottom: 24px;
     }
 
     .review-3 {
         display: none;
+    }
+    .review-photo {
+        margin: 0 auto;
+    }
+    .review-title-name {
+        margin-bottom: 8px;
+    }
+    .reviews-title {
+        text-align: left;
     }
 }
 
 /* --------------- */
 
-@media (min-width: 768px) and (max-width: 1279px) {
-    .reviews-list {
-        flex-direction: row;
-        align-items: center;
-
-    }
+@media (min-width: 1279px) {
+   
     .reviews {
-       padding: 80px;
+       padding: 100px;
          }
-    .review {
-        max-width: 45%;
-
+    .reviews-list {
+        gap: 20px;
     }
-
-    .review-3 {
-        display: none;
-    }
-
-    .reviews-title {
-
-        text-align: left;
-    }
-}
-
-/* ---------------------- */
-
-@media (min-width: 1280px) {
-    .reviews {
-            padding: 100px;
-        }
     .review {
         max-width: 300px;
+
     }
+    .review-1 {
+        display: block;
+    }
+    .review-2 {
+     display: block;
+ }
+
+    .review-3 {
+     display: block;
+ }
 }
+
+
