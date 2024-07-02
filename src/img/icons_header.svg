@@ -1,13 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
   <defs>
-    <symbol id="icon-header-menu" viewBox="0 0 68 32">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="6" d="M4 4.333h60M4 27.667h60" />
-    </symbol>
-    <symbol id="icon-close-menu" viewBox="0 0 32 32">
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.3529" d="M24 8l-16 16"></path>
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.3529" d="M8 8l16 16"></path>
-</symbol>
-    <symbol id="icon-facebook" viewBox="0 0 34 32">
+   <symbol id="icon-facebook" viewBox="0 0 34 32">
 <path d="M20.32 4.64c0.24 0 0.48 0 0.96 0v3.6c-0.24 0-0.72 0-1.2 0s-0.96 0-1.2 0.24c-0.24 0.24-0.24 0.48-0.24 1.040 0 0.48 0 0.8 0 1.28h2.64v3.040h-2.64v13.2h-4.080v-13.28h-2.16v-3.040h2.16v-1.040c0-1.76 0.24-3.040 0.72-3.6 0.72-1.040 2.16-1.52 4.32-1.52 0.24 0.080 0.48 0.080 0.72 0.080z"></path>
 </symbol>
    <symbol id="icon-instagram" viewBox="0 0 34 32">
@@ -19,6 +12,15 @@
 </symbol>
 <symbol id="icon-ellipse" viewBox="0 0 36 32">
 <path fill="#3350e9" style="fill: var(--color1, #3350e9)" d="M34 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+</symbol>
+<symbol id="icon-header-close" viewBox="0 0 32 32">
+<path fill="none" stroke="#fbfbfb" style="stroke: var(--color1, #fbfbfb)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.3529" d="M24 8l-16 16"></path>
+<path fill="none" stroke="#fbfbfb" style="stroke: var(--color1, #fbfbfb)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.3529" d="M8 8l16 16"></path>
+</symbol>
+<symbol id="icon-header-menu-open" viewBox="0 0 64 32">
+<path fill="#c5c4c4" style="fill: var(--color1, #c5c4c4)" d="M0 0h64v32h-64v-32z"></path>
+<path fill="#fbfbfb" style="fill: var(--color2, #fbfbfb)" d="M-740.571-68.571h857.143v16690.286h-857.143v-16690.286z"></path>
+<path fill="none" stroke="#0c0c0c" style="stroke: var(--color3, #0c0c0c)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="5.7143" d="M2.857 4.667h58.286M2.857 27.333h58.286"></path>
 </symbol>
   </defs>
 </svg>
