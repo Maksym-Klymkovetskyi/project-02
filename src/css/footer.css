@@ -70,6 +70,7 @@
     border-radius: 16px;
     width: 152px;
     height: 44px;
+    margin-top: 20px;
 }
 
 .footer-tel-link {
@@ -107,17 +108,26 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    gap: 24px;
+    gap: 48px;
 }
 
 .footer-section-menu {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
+    position: relative;
     flex-direction: row;
     gap: 49px;
 }
-
+ .footer-section-menu::after {
+     content: "";
+     width: 100%;
+     position: absolute;
+     left: 0;
+     bottom: -24px;
+     height: 1px;
+     background-color: rgba(251, 251, 251, 0.1);
+ }
 .footer-list {
     display: flex;
     flex-wrap: wrap;
@@ -191,7 +201,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        position: absolute;
         top: 40px;
         right: 40px;
         width: 160px;
@@ -209,6 +218,9 @@
         height: 96px;
         margin-top: 86px;
     }
+     .footer-section-menu::after {
+        bottom: -28px;
+     }
 
     .footer-text {
         font-size: 28px;
@@ -220,21 +232,10 @@
     }
 
     .footer-section-menu {
-        position: relative;
         gap: 62px;
     }
 
-    .footer-section-menu::after {
-        content: "";
-        width: 100%;
-        position: absolute;
-        left: 0;
-        bottom: -28px;
-        height: 1px;
-        background-color: rgba(251, 251, 251, 0.1);
-        ;
-    }
-
+   
     .footer-list {
         display: flex;
         align-items: flex-start;
@@ -280,16 +281,48 @@
         margin: 0;
     }
 
-    .footer-text-section {
-        position: absolute;
-        margin: 0;
-        top: 40px;
-        left: 378px;
-        align-items: center;
+    .footer-section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .footer-text,
+    .footer-text-section,
+    .footer-phone,
+    .footer-tel-link {
+        display: none;
+    }
+    .footer-section-logo {
+        margin-right: 178px;
+    }
+    .footer-text-section-desktop {
         width: 523px;
         height: 96px;
+        margin-right: 147px;
     }
-
+    .footer-text-desktop {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 1.14286;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #fbfbfb;
+    }
+    .footer-phone-desktop {
+        border: 1px solid rgba(251, 251, 251, 0.2);
+        border-radius: 16px;
+        width: 160px;
+        height: 48px;
+    }
+    .footer-tel-link-desktop {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.28571;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fbfbfb;
+    }
+    
     .footer-content {
         flex-direction: column;
         gap: 56px;
