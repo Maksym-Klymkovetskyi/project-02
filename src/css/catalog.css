@@ -114,12 +114,13 @@
     }
 
 .catalog-link-not {
-    display: flex;
+    display: block;
     }
 
 .catalog-link {
-    width: 344px;
-    height: 414px;
+    width: calc((100% - 16px)/2);
+    /* width: 344px;
+    height: 414px; */
     }
 
 
