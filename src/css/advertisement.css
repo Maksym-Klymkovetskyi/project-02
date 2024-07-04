@@ -61,15 +61,17 @@ font-weight: 500;
     /* text-align: center; */
     color: #fbfbfb;
     border: 1px solid rgba(251, 251, 251, 0.15);
-        border-radius: 16px;
-        /* width: 160px; */
-        /* height: 48px; */
-        background-color: transparent;
-        /* margin-bottom: 60px; */
+    border-radius: 16px;
+    /* width: 160px; */
+    /* height: 48px; */
+    background-color: transparent;
+    /* margin-bottom: 60px; */
 
     line-height: 1.29;
     padding: 15px 43px;
-    min-width: 160px;
+    max-width: 160px;
+    display: block;
+   
 }
 
 @media screen and (min-width: 768px) {
@@ -148,6 +150,6 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
     
     .advertisement-btn {
         padding: 0;
-        height: 48px;
+        /* height: 48px; */
     }
 }
