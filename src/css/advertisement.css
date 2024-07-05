@@ -62,7 +62,7 @@ font-weight: 500;
     color: #fbfbfb;
     border: 1px solid rgba(251, 251, 251, 0.15);
     border-radius: 16px;
-    /* width: 160px; */
+    max-width: 160px;
     height: 48px;
     background-color: transparent;
     /* margin-bottom: 60px; */
