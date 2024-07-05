@@ -1,9 +1,4 @@
-/* .container {
-  width: 375px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 0 auto;
-} */
+
 .about-us-cont {
   display: flex;
   flex-direction: column;
@@ -29,7 +24,7 @@
   font-size: 32px;
   line-height: 1;
   letter-spacing: -0.02em;
-  /* color: #0c0c0c; */
+
 
   margin-bottom: 28px;
 }
@@ -41,16 +36,15 @@
   margin-bottom: 40px;
 }
 .about-us-text {
-  width: 295px;
+  max-width: 295px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: -0.02em;
-  /* color: rgba(12, 12, 12, 0.7); */
+
 }
 .about-us-btn {
   border-radius: 16px;
-  /* height: 48px; */
   background-color: #3350e9;
   border: transparent;
 
@@ -66,16 +60,9 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.28;
-  /* text-align: center; */
   color: #fbfbfb;
-  /* padding-bottom: 40px; */
 }
 @media screen and (min-width: 768px) {
-  /* .container {
-    width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-  } */
   .about-us-cont {
     gap: 40px;
   }
@@ -104,29 +91,20 @@
     margin-bottom: 50px;
   }
   .about-us-text {
-    width: 584px;
+    max-width: 584px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: -0.02em;
-    /* color: rgba(12, 12, 12, 0.7); */
   }
   .about-us-text-type {
     margin-bottom: 60px;
   }
-  .about-us-btn-link {
-    /* padding-bottom: 80px; */
-  }
 }
 @media screen and (min-width: 1280px) {
-  /* .container {
-    width: 1280px;
-    padding-left: 65px;
-    padding-right: 65px;
-  } */
   .about-us-cont {
     flex-direction: row;
-    /* gap: 40px; */
+
   }
 
   .about-us {
@@ -135,7 +113,7 @@
   }
   .text-back {
     border-radius: 50px;
-    width: 580px;
+    max-width: 580px;
     height: 532px;
     padding-left: 60px;
     padding-right: 60px;
@@ -152,7 +130,7 @@
     margin-bottom: 50px;
   }
   .about-us-text {
-    width: 460px;
+    max-width: 460px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.25;
@@ -162,7 +140,5 @@
   .about-us-text-type {
     margin-bottom: 45px;
   }
-  .about-us-btn-link {
-    /* padding-bottom: 80px; */
-  }
+
 }
