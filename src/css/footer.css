@@ -73,8 +73,6 @@
 
 .footer-text-section {
     margin-top: 40px;
-    margin-left: auto;
-    margin-top: auto;
     max-width: 279px;
     height: 96px;
 }
@@ -86,7 +84,6 @@
     letter-spacing: -0.02em;
     text-align: center;
     color: #fbfbfb;
-
 }
 
 .footer-content {
@@ -145,7 +142,6 @@
     flex-direction: row;
     gap: 20px;
     margin-left: auto;
-    margin-right: auto;
 }
 
 .footer-box-link {
@@ -186,6 +182,8 @@
 
     .footer-text-section {
         margin-top: 86px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .footer-section-menu::after {
@@ -274,7 +272,6 @@
         letter-spacing: -0.02em;
         text-align: center;
         color: #fbfbfb;
-
     }
 
     .footer-tel-link-desktop {
