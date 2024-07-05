@@ -3,17 +3,10 @@
     padding-bottom: 60px;
 }
 
-.container-your-story {
-
-    /* background: #0c0c0c; */
-
-}
 
 
 
 .your-story-backdrop {
-    /* padding-left: 28px;
-    padding-top: 60px; */
     padding: 60px 28px;
     border-radius: 30px;
     background-repeat: no-repeat;
@@ -25,7 +18,6 @@
     display: flex;
     flex-direction: column;
     gap: 28px;
-    /* justify-content: space-between; */
 
 }
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
@@ -39,11 +31,10 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 
 .advertisement-title {
 font-weight: 600;
-    /* font-size: 28px; */
-    /* line-height: 100%; */
+
     letter-spacing: -0.02em;
     color: #fbfbfb;
-    /* margin-bottom: 28px; */
+
 
     max-width: 279px;
     font-size: 32px;
@@ -54,7 +45,7 @@ font-weight: 600;
     color: rgba(251, 251, 251, 0.5);
 }
 
-.advertisement-btn {
+.advertisement-btn-link {
 font-weight: 500;
     font-size: 14px;
     /* line-height: 129%; */
