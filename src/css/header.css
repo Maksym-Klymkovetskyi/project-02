@@ -1,6 +1,7 @@
 /*header*/
 /*mobil*/
 
+
 .header {
     border-bottom: 1px solid #e7e9fc;
     box-shadow:
@@ -8,6 +9,7 @@
         0 1px 1px 0 rgba(46, 47, 66, 0.16),
         0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
+
 
 .header-container {
     /* max-width: 100%; */
@@ -26,7 +28,9 @@
 }
 
 .logo {
+
     /* font-family: "Gilroy", sans-serif; */
+
     font-weight: 500;
     font-size: 16px;
     letter-spacing: -0.02em;
@@ -112,7 +116,10 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 }
 
 .link-header {
+
+
     /* font-family: "Gilroy", sans-serif; */
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.3;
@@ -294,3 +301,4 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
             gap: 8px;
         }
     }
+   
