@@ -1,6 +1,4 @@
 .contact-us {
-  /* padding: 0px 20px;
-  height: 100%; */
 
   padding-top: 60px;
   padding-bottom: 60px;
@@ -11,9 +9,6 @@
   font-size: 32px;
   line-height: 1;
   letter-spacing: -0.02em;
-  /* color: #0c0c0c; */
-  /* padding-bottom: 24px; */
-
   margin-bottom: 24px;
 }
 
@@ -26,12 +21,7 @@
 .container-form-contact-us {
   border-radius: 30px;
   padding: 48px 28px;
-  /* width: 335px;
-  height: 512px; */
   background-color: #f3f3f3;
-  /* display: flex;
-  flex-direction: column; */
-  /* margin-bottom: 20px; */
 }
 
 .p-contact-us {
@@ -39,8 +29,6 @@
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
-  /* padding-bottom: 28px; */
-
   margin-bottom: 28px;
 }
 
@@ -49,9 +37,6 @@
   flex-direction: column;
 }
 
-.beforefooter-img {
-  /* margin-top: 20px; */
-}
 
 .div-input-contact-us {
   margin-bottom: 18px;
@@ -80,39 +65,12 @@ input::placeholder {
   color: #0c0c0c;
 }
 
-/* .input-name-contact-us {
-  border: 1px solid rgba(12, 12, 12, 0.15);
-  border-radius: 12px;
-  padding: 12px 0 12px 14px;
-  width: 279px;
-  height: 42px;
-  background-color: transparent;
-} */
-
-/* .input-email-contact-us {
-  border: 1px solid rgba(12, 12, 12, 0.15);
-  border-radius: 12px;
-  padding: 12px 0 12px 14px;
-  width: 279px;
-  height: 42px;
-  background-color: transparent;
-} */
-
-/* .input-tel-contact-us {
-  border: 1px solid rgba(12, 12, 12, 0.15);
-  border-radius: 12px;
-  padding: 12px 0 12px 14px;
-  width: 279px;
-  height: 42px;
-  background-color: transparent;
-} */
 
 .contact-us-form-textarea {
   margin-bottom: 28px;
 }
 
 .textarea-comment-contact-us {
-  /* margin-bottom: 28px; */
   border: 1px solid rgba(12, 12, 12, 0.15);
   border-radius: 12px;
   padding: 12px 14px;
@@ -123,21 +81,6 @@ input::placeholder {
 
   overflow: hidden;
 }
-
-/* .input-name-contact-us:focus,
-.input-name-contact-us:hover {
-  border-color: #3350e9;
-}
-
-.input-tel-contact-us:focus,
-.input-tel-contact-us:hover {
-  border-color: #3350e9;
-}
-
-.input-email-contact-us:focus,
-.input-email-contact-us:hover {
-  border-color: #3350e9;
-} */
 
 .textarea-comment-contact-us:focus,
 .textarea-comment-contact-us:hover {
@@ -156,7 +99,6 @@ input::placeholder {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
-  /* text-align: center; */
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -196,20 +138,9 @@ input:placeholder-shown {
     padding: 50px 122px;
     width: 704px;
     height: 556px;
-    /* display: flex;
-    flex-direction: column; */
   }
 
-  /* .section-contact-us {
-    margin-left: 32px;
-    margin-right: 32px;
-    padding: 0px 20px;
-  } */
 
-  /* .form-contact-us {
-    width: 460px;
-    height: 456px;
-  } */
 
   .p-contact-us {
     /* padding-bottom: 32px; */
@@ -217,34 +148,12 @@ input:placeholder-shown {
     line-height: 1.25;
   }
 
-  /* .input-name-contact-us {
-    padding-left: 16px;
-    width: 460px;
-    height: 52px;
-  }
-
-  .input-email-contact-us {
-    padding-left: 16px;
-    width: 460px;
-    height: 52px;
-  }
-
-  .input-tel-contact-us {
-    padding-left: 16px;
-    width: 460px;
-    height: 52px;
-  } */
-
   .contact-us-form-textarea {
     margin-bottom: 32px;
   }
 
   .textarea-comment-contact-us {
-    /* padding-left: 16px; */
-    /* width: 460px; */
     height: 90px;
-    /* margin-bottom: 32px; */
-
     padding: 16px;
   }
 
@@ -254,11 +163,7 @@ input:placeholder-shown {
     height: 52px;
   }
 
-  .beforefooter-img {
-    /* margin-top: 40px;
-    border-radius: 50px;
-    width: 704px; */
-  }
+
 }
 
 @media screen and (min-width: 1280px) {
