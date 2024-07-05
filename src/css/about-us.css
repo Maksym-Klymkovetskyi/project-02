@@ -10,8 +10,8 @@
 }
 .text-back {
   border-radius: 30px;
-  width: 335px;
-  height: 446px;
+  max-width: 335px;
+  min-height: 446px;
   background: #f3f3f3;
   padding-top: 40px;
   padding-right: 20px;
@@ -73,8 +73,8 @@
   }
   .text-back {
     border-radius: 50px;
-    width: 704px;
-    height: 512px;
+    max-width: 704px;
+    min-height: 512px;
     padding-left: 60px;
     padding-right: 60px;
     padding-top: 80px;
@@ -114,7 +114,7 @@
   .text-back {
     border-radius: 50px;
     max-width: 580px;
-    height: 532px;
+    min-height: 532px;
     padding-left: 60px;
     padding-right: 60px;
     padding-top: 80px;
